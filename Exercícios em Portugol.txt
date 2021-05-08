@@ -1,0 +1,90 @@
+Algoritimo Conversão Idade - Exercício 1
+
+var idade
+var meses
+var dias
+var horas
+var minutos
+
+Inicio
+Escreval "Qual a sua idade?"
+ler resposta = idade
+meses = idade *12
+dias = idade *365
+horas = idade *8760
+minutos = idade *525600
+
+Escreval "Já está bem grandinho hein? Sua idade é + meses + em meses, + dias + em dias, + horas + em horas e + minutos + em minutos!
+Final
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Algoritimo Cálculo Idade - Exercício 2
+System.DateTime.Now.Year
+
+var Nascimento
+var Ano Atual
+
+Inicio
+Escreval "Em que ano você nasceu?"
+Ler resposta = Nascimento
+Ano atual = Calendário.anoatual
+Idade = Nascimento - Ano Atual
+
+Escreval "Caramba! Você já tem + idade + anos!"
+Escreval +idade+ "isso são aproximadamente +idade*52+ semanas! Bastante tempo, não acha?"
+Final
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Algoritimo Aumento de Salário - Exercício 3
+
+var salario
+var reajuste
+var salarioreajuste
+
+INICIO
+var reajuste = 0,3
+
+escreval "Informe seu salário atual"
+resposta = var salario
+
+se salario menor que 500:
+
+var salarioreajuste = salario * reajuste
+escreval "Seu salário foi reajustado, o valor atual agora é" +salarioreajuste+
+
+senão:
+
+escreval "Seu salário não é elegível para reajuste, sinto muito"
+
+FINAL
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Algoritmo Categoria Natação - Desafio
+
+var idade
+
+INICIO
+
+escreval "Bem vindo a Michael Phelps Natação! Informe sua idade para que possamos o inscrever no curso"
+resposta = var idade
+
+se idade <= 18
+escreval "Meus parabéns! Você foi classificado(a) como Sênior com +idade+ anos!"
+
+senão se idade >= 17
+escreval "Meus parabéns! Você foi classificado(a) como Juvenil B com +idade+ anos!"
+
+senão se idade >= 13
+escreval "Meus parabéns! Você foi classificado(a) como Juvenil A com +idade+ anos!"
+
+senão se idade >= 10
+escreval "Meus parabéns! Você foi classificado(a) como Infantil B com +idade+ anos!"
+
+senão se idade >= 7
+escreval "Meus parabéns! Você foi classificado(a) como Infantil A com +idade+ anos!"
+
+senão se idade > 5
+escreval "Calma lá pequeno! Você ainda não pode se inscrever, mas eu te vejo daqui a algum tempo!"
